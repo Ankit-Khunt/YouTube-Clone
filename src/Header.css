@@ -1,0 +1,46 @@
+.header{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;  /*space between class*/
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+
+    
+
+}
+.header__logo{
+    height: 25px;
+    object-fit: contain;
+    margin-left: 20px;
+    
+}
+
+.header__input{
+    width: 40%;
+    display: flex;
+    border:1px solid black;
+    align-items: center;
+}
+
+.header__serchicon{
+    width: 50px !important;
+    background-color:#fafafa;
+
+    color: grey;
+    border-left:1px solid black;
+}
+.header__icons{
+    display: flex;
+    align-items: center;
+}
+.header__input > input{
+    border:none;
+    flex: 1px;
+}
+
+.header__icon{
+    margin-right: 20px;
+}

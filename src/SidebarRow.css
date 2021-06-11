@@ -1,0 +1,40 @@
+.Sidebar__Row{
+    display:flex;
+    align-items: center;
+    
+}
+.Sidebar__Rowicon{
+    padding:15px;
+    color:gray;
+    font-size: large;
+
+}
+.Sidebar__Rowcon{
+    flex:1;
+    margin-left:2px;
+    font-size: 12px;
+}
+.Sidebar__Row:hover{
+background-color:lightgray;
+}
+.Sidebar__Row:hover > .Sidebar__Rowicon{
+    color:red;
+    font-size:larger;
+
+}
+
+.Sidebar__Row:hover > .Sidebar__Rowcon{
+    font-size:15px;
+    
+
+}
+
+.Sidebar__Row.selected {
+    background-color:lightgray;
+
+}
+.Sidebar__Row.selected > .Sidebar__Rowicon {
+    color:red;
+    
+
+}

@@ -1,0 +1,30 @@
+.Searchbar_video{
+    display: flex;
+    margin-bottom: 20px;
+   flex-wrap: wrap;
+}
+.Searchbar__thumnell{
+    height: 350px;
+    width: 650px;
+}
+.Searchbar__info{
+    display:flex;
+    margin-left: 30px;
+
+    
+
+
+}
+
+.Searchbar__text{
+    margin-left: 10px;
+
+}
+.Searchbar__text_tital{
+    font-size: 15px;
+
+}
+.Searchbar__text > p{
+    font-size: 13px;
+    color:grey;
+}

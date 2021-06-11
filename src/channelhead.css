@@ -1,0 +1,30 @@
+.Channelhead__detail{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.Channelhead_content{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.Channelhead__avtar{
+    height: 200px !important; /*important beacause material ui*/
+    width: 200px !important;
+    margin :10px 20px;
+
+}
+.Channelhead_content > p {
+    columns: #606060;
+
+    font-size: small !important;
+
+}
+.Channelhead_content >h4{
+    display :flex;
+    align-items: center;
+    justify-content: space-between;
+}
